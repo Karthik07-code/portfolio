@@ -186,6 +186,10 @@ section {
   text-align: center;
 }
 
+.section__text__p1-2 {
+  text-align: center;
+}
+
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
@@ -300,7 +304,8 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+.section__pic-container2 {
+  display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -332,7 +337,6 @@ section {
   gap: 2rem;
   justify-content: space-between;
   margin: 0px 50px;
-  
 }
 
 article {

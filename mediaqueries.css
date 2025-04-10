@@ -40,6 +40,11 @@
     height: 275px;
     margin: 0 auto 2 rem;
   }
+  .section__pic-container2 {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2 rem;
+  }
 
   .about-containers {
     margin-top: 0;
@@ -90,13 +95,36 @@
     height: 46vw;
     justify-content: center;
   }
+  .section__pic-container2 {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
   }
   .text-container {
     text-align: justifty;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .section__pic-container {
+    height: 250px;
+  }
+  .section__pic-container2 {
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  .section__text__p1-2 {
+    margin-top: 3rem;
+  }
+  #project{
+    overflow: hidden;
+  }
+  
 }
